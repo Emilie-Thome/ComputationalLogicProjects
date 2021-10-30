@@ -1,0 +1,10 @@
+(A \/ B) => (A => C) => (B => C) => C
+intro x
+intro f
+intro g
+elim x
+elim f
+exact x
+elim g
+exact x
+orelim.proof

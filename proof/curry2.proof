@@ -1,0 +1,8 @@
+(A => B => C) => A /\ B => C
+intro f
+intro x
+cut B
+elim f
+fst x
+snd x
+curry2.proof

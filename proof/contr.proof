@@ -1,0 +1,8 @@
+(A => B) => (not B => not A)
+intro f
+intro nb
+intro a
+elim nb
+elim f
+exact a
+contr.proof

@@ -1,0 +1,9 @@
+(A /\ B => C) => A => B => C
+intro f
+intro x
+intro y
+elim f
+intro 
+exact x
+exact y
+curry1.proof

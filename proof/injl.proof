@@ -1,0 +1,5 @@
+A => A \/ B
+intro x
+left 
+exact x
+injl.proof

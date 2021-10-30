@@ -1,0 +1,6 @@
+((A => A) => B) => B
+intro f
+elim f
+intro x
+exact x
+appid.proof

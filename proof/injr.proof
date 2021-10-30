@@ -1,0 +1,5 @@
+B => A \/ B
+intro y
+right 
+exact y
+injr.proof

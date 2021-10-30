@@ -1,0 +1,6 @@
+not (not _) => _
+intro x
+elim x
+intro y
+exact y
+nnef.proof

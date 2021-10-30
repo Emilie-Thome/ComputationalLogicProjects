@@ -1,0 +1,25 @@
+(A => not A) => (not A => A) => _
+intro f
+intro g
+cut (((A \/ (A => _)) => _) => _)
+intro h
+elim h
+intro x
+cut A
+elim f
+elim x
+exact x
+elim g
+exact x
+elim x
+exact x
+elim g
+exact x
+intro h
+elim h
+right 
+intro x
+elim h
+left 
+exact x
+russel.proof

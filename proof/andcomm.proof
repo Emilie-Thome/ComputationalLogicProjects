@@ -1,0 +1,6 @@
+A /\ B => B /\ A
+intro x
+intro 
+snd x
+fst x
+andcomm.proof

@@ -1,0 +1,8 @@
+(A => B) => (B => C) => A => C
+intro g
+intro f
+intro x
+elim f
+elim g
+exact x
+comp.proof

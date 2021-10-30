@@ -1,0 +1,12 @@
+assume Bool : Type
+assume true : Bool
+assume false : Bool 
+define idBool = fun (b : Bool) -> b
+type idBool true
+check idBool false = Bool
+eval idBool true
+define id = fun (A : Type) -> fun (x : A) -> x
+check id = Pi (A : Type) -> Pi (x : A) -> A
+type id (Bool => Bool) (id Bool)
+exit 
+bool.proof

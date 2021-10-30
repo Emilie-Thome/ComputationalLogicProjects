@@ -1,0 +1,13 @@
+((not A) \/ B) => A => B
+intro x
+elim x
+intro y
+cut _
+intro false
+elim false
+cut A
+exact x
+exact y
+intro y
+exact x
+impdm.proof

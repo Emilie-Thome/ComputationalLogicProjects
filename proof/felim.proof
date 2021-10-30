@@ -1,0 +1,4 @@
+_ => A
+intro x
+elim x
+felim.proof

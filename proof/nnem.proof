@@ -1,0 +1,9 @@
+not (not (A \/ not A))
+intro f
+elim f
+right 
+intro x
+elim f
+left 
+exact x
+nnem.proof

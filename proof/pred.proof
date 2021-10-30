@@ -1,0 +1,8 @@
+Nat => Nat
+intro n
+elim n
+intro 
+intro x
+intro y
+exact x
+pred.proof
