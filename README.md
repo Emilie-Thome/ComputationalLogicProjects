@@ -1,3 +1,5 @@
+# Implementing a propositional prover
+
 Compilation de tous les codes : make all_prover
 
 Démarrer Emacs avec prover_tests.ml : make prover_tests
